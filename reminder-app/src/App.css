@@ -1,0 +1,81 @@
+body {
+  background-color: #ffffff;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.main_reminder_div {
+  background-color: white;
+  box-shadow: 2px 2px 15px lightgray;
+  border-radius: 10px;
+  width: 40%;
+  height: 230px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.filedsbox {
+  padding: 20px;
+
+
+
+}
+
+.inputfieldfornote {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  width: 80%;
+  height: 30px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: gray;
+
+  font-weight: bold;
+
+}
+
+::placeholder {
+  /* color: gray; */
+  font-size: 20px;
+}
+
+.textareacreatenorte {
+  width: 80%;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: gray;
+}
+
+.add_item {
+  float: right;
+  color: white;
+  /* font-size: 30px; */
+  background-color: rgb(250, 189, 189);
+  cursor: pointer;
+
+}
+
+.showDivNote {
+  background-color: white;
+  box-shadow: 2px 2px 15px lightgray;
+  border-radius: 10px;
+  width: 27%;
+  height: 160px;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.main_content_div {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
